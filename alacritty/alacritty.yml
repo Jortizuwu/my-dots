@@ -1,0 +1,6 @@
+font:
+  normal:
+    family: Cascadia Code
+    style: Bold
+    features:
+      - liga
