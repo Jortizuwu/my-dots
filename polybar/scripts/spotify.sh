@@ -26,7 +26,7 @@ function get_status() {
     if [ $EXIT_CODE -eq 0 ]; then
         STATUS=$PLAYERCTL_STATUS
     else
-        STATUS="No player is running"
+        STATUS="󰝛 No Music"
     fi
 }
 
@@ -40,7 +40,7 @@ function display_data() {
         echo "No music is playing"
     elif [ "$STATUS" = "Paused"  ]; then
         get_metadata "Paused"
-    elif [ "$STATUS" = "No player is running"  ]; then
+    elif [ "$STATUS" =  "󰝛 No Music"  ]; then
         echo "$STATUS"
     else
         get_metadata "{{ title }} by {{ artist }}"
@@ -52,7 +52,7 @@ function display_status() {
         echo ""
     elif [ "$STATUS" = "Paused"  ]; then
         echo ""
-    elif [ "$STATUS" = "No player is running"  ]; then
+    elif [ "$STATUS" =  "󰝛 No Music"  ]; then
         echo ""
     else
         echo ""
