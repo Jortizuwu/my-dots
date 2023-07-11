@@ -1,0 +1,15 @@
+[user]
+	name = Jortizuwu
+	email = joseher2511@gmail.com
+[init]
+	defaultBranch = main
+[credential]
+    helper = store
+    # Cache credentials for 1 year (in seconds)
+    # 31536000 seconds = 1 year
+    cacheTimeout = 31536000
+[core]
+  symlinks = false
+[alias]
+    lg = log --all --stat --pretty=oneline --graph --format='%h %d %an %cr %s' --oneline
+    l = log --all --stat --graph --format='%h %d %an %cr %s'
