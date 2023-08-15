@@ -5,7 +5,7 @@ window:
 
   decorations: none
 
-  opacity: 0.8
+  opacity: 1.0
   dynamic_title: true
 
   history: 10000
@@ -15,7 +15,7 @@ font:
   normal:
     family: Cascadia Code
     style: Bold
-    size: 8
+    size: 10
     font-weight: 11
     features:
       - liga
