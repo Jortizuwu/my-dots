@@ -1,5 +1,0 @@
-[colors]
-
-background = ${xrdb:color0:#e6a894}
-foreground = ${xrdb:color15:#ffffff}
-
